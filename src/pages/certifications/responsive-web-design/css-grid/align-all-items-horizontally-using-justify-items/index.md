@@ -3,8 +3,27 @@ title: Align All Items Horizontally using justify-items
 ---
 ## Align All Items Horizontally using justify-items
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/align-all-items-horizontally-using-justify-items/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Hint 1: Make sure you are only entering one line of code in this challenge.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Hint 2: Your code is going to go into the container class unlike the align self lesson.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Hint 3: You will enter the value center to get the desired results.
+
+The final code will look like this:
+
+```CSS
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    justify-items: center;
+    
+ 
+  }
+```
